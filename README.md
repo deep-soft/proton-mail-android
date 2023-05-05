@@ -30,16 +30,35 @@ Then, go to the app’s root directory in the command line tool and run:
 - `adb install ./app/build/outputs/apk/beta/debug/ProtonMail-Android-1.XX.X-beta-debug.apk`
 
 ### Note: In app notifications when building from source
-**When building from source, in app push notifications for new emails will not work out of the box.**
 
-The app uses Google's Firebase Cloud Messaging (FCM) service to deliver push notifications. However, we are not publishing the production version of the configuration files needed to set up this service, because the values specified within are deemed sensitive.
-Instead, we publish dummy versions of the files (`config/google-services/dummy-google-services.json` and `config/google-services/dummy-google-services-beta.json`) which allows you to build the app without push notifications. The dummy files will be copied to the relevant folders once you run the ./gradlew command.
+**When building from source, in app push notifications for new emails will not work out of the
+box.**
 
-We may offer alternative push notification systems in the future which do not rely on Google services.
+The app uses Google's Firebase Cloud Messaging (FCM) service to deliver push notifications. However,
+we are not publishing the production version of the configuration files needed to set up this
+service, because the values specified within are deemed sensitive.
+Instead, we publish dummy versions of the files (`config/google-services/dummy-google-services.json`
+and `config/google-services/dummy-google-services-beta.json`) which allows you to build the app
+without push notifications. The dummy files will be copied to the relevant folders once you run the
+./gradlew command.
 
-## Contributions
+We may offer alternative push notification systems in the future which do not rely on Google
+services.
 
-Contributions are appreciated, but must conform to Proton Guidelines.
+## Contributions Disclaimer
+
+We will be temporarily closing our repository for collaboration while we work on rewriting the
+Proton Mail Android app.
+
+During this time, this repository won't accept any issues or pull requests. We will be focusing on
+making significant improvements to our Android app, including bug fixes, new features, and
+enhancements to overall performance.
+
+We will notify you when the new version of our app is ready, and the new repository will be open to
+accept contributions. Thank you for your understanding, we appreciate your patience and support as
+we work to create a better experience.
+
+## Conventions
 
 #### Branch naming
 
@@ -47,7 +66,8 @@ Branch names must respect the pattern `type/description-of-the-change`.
 
 *Type* must be one of the following:
 
-* `chore` for changes not related to the Kotlin source code, for example a change in the build config
+* `chore` for changes not related to the Kotlin source code, for example a change in the build
+  config
 * `doc` for changes related to source code documentation, or external document, like the README
 * `feat` for a new feature for the app
 * `fix` for bug fixes
