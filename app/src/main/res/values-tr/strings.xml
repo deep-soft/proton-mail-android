@@ -298,7 +298,7 @@
     <string name="invalid_email_address">\'%s\' adresi geçersiz</string>
     <string name="invalid_email_address_removed">%s adresi geçersiz ve kaldırıldı</string>
     <string name="no_recipients_specified">Lütfen en az bir alıcı ekleyin</string>
-    <string name="no_password_specified">Geçerlilik süresi yalnızca tamamen şifrelenmiş iletiler için ayarlanabilir. Lütfen Proton Mail kullanmayan alıcılarınız için bir parola belirtin.</string>
+    <string name="no_password_specified">Geçerlilik süresi yalnızca tamamen şifrelenmiş iletiler için ayarlanabilir. Lütfen Proton Mail kullanmayan alıcılarınız için bir parola ayarlayın.</string>
     <string name="attachment_limit">Ek dosya sınırı %1$s. Toplam ek dosya boyutu en fazla %2$s olabilir.</string>
     <string name="sending_message">İleti gönderiliyor...</string>
     <string name="sending_message_offline">Çevrimdışı. Daha sonra gönderilmek üzere sıraya alındı...</string>
@@ -310,7 +310,7 @@
     <string name="cancel">İptal</string>
     <string name="close">Kapat</string>
     <string name="eo_password_title">Parola ayarla</string>
-    <string name="eo_password_subtitle">Proton Mail kullanmayan kişiler için bu iletiyi şifreleyecek bir parola belirtin</string>
+    <string name="eo_password_subtitle">Proton Mail kullanmayan kişiler için bu iletiyi şifreleyecek bir parola ayarlayın</string>
     <string name="eo_password_more_info">Ayrıntılı bilgi alın</string>
     <string name="no_attachments">0 ek dosya</string>
     <string name="display_name_banned_chars">Görüntülenecek ad geçersiz. \'&gt;\' ve \'&lt;\' kullanılamaz</string>
@@ -602,7 +602,7 @@
     <string name="contact_group_display_name">Görüntülenecek ad</string>
     <string name="contact_group_groups_icon">\ue91a </string>
     <string name="title_activity_address_chooser">Üye yönetimi</string>
-    <string name="default_error_message">Hata oluştu</string>
+    <string name="default_error_message">Sorun çıktı</string>
     <string name="no_contact_groups">Henüz bir kişi grubu yok</string>
     <string name="search_contacts_inside_group">Kişi arama</string>
     <string name="contact_group_toolbar_title">%s (%s)</string>
@@ -647,11 +647,11 @@
     <string name="storage_limit_alert">Depolama alanı sınırına ulaşıldı. E-posta gönderilemez veya alınamaz.
         Ayrıntılı bilgi almak için dokunun.</string>
     <string name="storage_limit_warning_title">Uyarı</string>
-    <string name="storage_limit_reached_text">Depolama alanı kapasiteniz %100 oranında kullanılıyor.
-        Bazı e-postaları kalıcı olarak silmediğiniz veya daha fazla depolama alanı satın almadığınız sürece 
+    <string name="storage_limit_reached_text">Depolama alanınız %100 oranında kullanılıyor.
+        Bazı e-postaları kalıcı olarak silmediğiniz ya da daha fazla depolama alanı satın almadığınız sürece 
         e-posta gönderemez veya alamazsınız.</string>
-    <string name="storage_limit_approaching_text">Depolama kapasiteniz %90 oranında kullanılıyor.
-        Kapasiteniz tükenmeden önce bir miktar alan boşaltmayı veya daha fazla depolama alanı satın almayı değerlendirin.</string>
+    <string name="storage_limit_approaching_text">Depolama alanınız %90 oranında kullanılıyor.
+        Alanınız dolmadan önce bir miktar alan boşaltmayı ya da daha fazla depolama alanı satın almayı değerlendirin.</string>
     <!-- endregion -->
     <string name="need_permissions_title">İzinler</string>
     <string name="need_storage_permissions_add_attachment_text">Dosya eklemek için depolama alanına erişme
@@ -770,8 +770,8 @@
     <string name="swipe_action_mark_read">İletiyi okunmuş olarak işaretlendi</string>
     <string name="swipe_action_mark_read_short">Oku</string>
     <plurals name="action_move_to_trash">
-        <item quantity="one">İleti çöpe taşındı</item>
-        <item quantity="other">İletiler çöpe taşındı</item>
+        <item quantity="one">İleti çöpe atıldı</item>
+        <item quantity="other">İletiler çöpe atıldı</item>
     </plurals>
     <!-- endregion -->
     <string name="local_storage">Yerel depolama alanı sınırı</string>
@@ -839,7 +839,7 @@
     <string name="invalid_firebase_api_key_message">Firebase API anahtarı geçersiz. Anlık bildirimler çalışmayacak.</string>
     <string name="failed_saving_draft_online">Çevrimiçi ileti taslağı kaydedilemedi: \"%s\"</string>
     <string name="failed_draft_does_not_exist">\"%s\" iletisi bulunamadı.</string>
-    <string name="failed_uploading_attachment_online">İletide ek dosya hatası: \"%s\"</string>
+    <string name="failed_uploading_attachment_online">İletiye dosya eklenirken sorun çıktı: \"%s\"</string>
     <string name="cannot_open_message_while_being_sent">Bu ileti gönderilirken açılamaz</string>
     <string name="enable_conversation_mode">Yazışma kipini etkinleştir</string>
     <!-- endregion -->
@@ -874,5 +874,5 @@
     <string name="edit_draft">Taslağı düzenle</string>
     <string name="details_show_history">Geçmişi göster</string>
     <string name="could_not_complete_action">İşlem tamamlanamadı</string>
-    <string name="decryption_of_message_failed">Şifre çözme hatası: Bu iletinin şifrelenmiş içeriğinin şifresi çözülemedi.</string>
+    <string name="decryption_of_message_failed">Şifre çözme sorunu: Bu iletinin şifrelenmiş içeriğinin şifresi çözülemedi.</string>
 </resources>

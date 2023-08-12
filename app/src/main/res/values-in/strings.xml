@@ -85,7 +85,7 @@
     <string name="composer_from">Dari:</string>
     <string name="composer_subject">Subjek:</string>
     <string name="composer_to">Kepada:</string>
-    <string name="composer_removing_address_generic_error">Tidak dapat memverifikasi alamat: %s. Pengiriman berpotensi gagal.</string>
+    <string name="composer_removing_address_generic_error">Alamat tidak dapat diverifikasi: %s. Pengiriman berpotensi gagal.</string>
     <string name="composer_removing_address_server_error">Menghapus alamat: %s. %s</string>
     <!-- arg1 = date and time, arg2 = sender name, arg3 = sender email -->
     <string name="composer_quote_sender_header">Pada %s, %s &lt; %s&gt; menulis:</string>
@@ -337,7 +337,7 @@
     <string name="saving_failed_no_conn">Gagal menyimpan, tidak ada koneksi</string>
     <string name="attachment_exists">Lampiran telah terlampir</string>
     <string name="eo_password_not_completed">Kata Sandi Pesan tidak lengkap.</string>
-    <string name="delinquency_subtitle">Akses ke akun ini telah dinonaktifkan karena adanya tagihan yang belum dibayar. Silakan masuk melalui proton.me untuk membayar tagihan Anda.</string>
+    <string name="delinquency_subtitle">Akses ke akun ini telah ditangguhkan karena adanya tagihan yang tertunggak. Silakan masuk melalui proton.me untuk melunasi tagihan Anda.</string>
     <string name="downloading">Mengunduh...</string>
     <string name="cant_download_attachment">Lampiran tidak dapat diunduh</string>
     <string-array name="auto_logout_options_array">
@@ -525,11 +525,11 @@
     <string name="remove_password">Hapus Kata Sandi</string>
     <string name="remove_password_question">Hapus Kata Sandi?</string>
     <string name="attachment_storage_value_current">Sedang dipilih: %dMB</string>
-    <string name="attachment_storage_value_current_unlimited">Sedang dipilih: Tidak terbatas</string>
+    <string name="attachment_storage_value_current_unlimited">Pilihan saat ini: Tak terbatas</string>
     <string name="attachment_offline_max_storage">Menentukan jumlah ruang penyimpanan maksimum yang dapat Proton Mail gunakan pada perangkat seluler Anda.</string>
     <string name="load_embedded_images_failed_no_network">Gagal memuat gambar yang tersemat. Mohon periksa koneksi internet Anda.</string>
     <string name="load_embedded_images_failed">Gagal memuat gambar yang tersemat.</string>
-    <string name="unlimited">Tanpa Batas</string>
+    <string name="unlimited">Tak terbatas</string>
     <string name="local_storage_cleared">Ruang penyimpanan lokal dikosongkan</string>
     <string name="recipient_popup_compose_to">Tulis untuk</string>
     <string name="recipient_popup_copy_address">Salin alamat</string>
@@ -543,7 +543,7 @@
     <!-- External message that was encrypted by the BE -->
     <string name="sender_lock_sent_end_to_end">Dikirim oleh Anda dengan enkripsi ujung ke ujung</string>
     <!-- External message that was encrypted by the BE -->
-    <string name="sender_lock_sent_autoresponder">Dikirim oleh Proton Mail dengan teknologi enkripsi nol akses</string>
+    <string name="sender_lock_sent_autoresponder">Dikirim oleh Proton Mail dengan teknologi enkripsi zero access</string>
     <string name="sender_lock_verification_failed">Verifikasi pengirim gagal</string>
     <string name="sender_lock_pgp_encrypted">Pesan terenkripsi PGP</string>
     <string name="sender_lock_pgp_encrypted_verified">Pesan terenkripsi PGP dari alamat terverifikasi</string>
@@ -557,7 +557,7 @@
     <string name="composer_lock_pgp_encrypted_pinned">Terenkripsi PGP ke penerima terverifikasi</string>
     <string name="composer_lock_pgp_signed">Ditandatangani PGP</string>
     <string name="recipient_not_found_and_removed">Penerima tidak dapat ditemukan: %s dan telah dihapus</string>
-    <string name="recipient_error_and_removed">Kesalahan saat mengambil informasi penerima dan penerima telah dihapus: %s</string>
+    <string name="recipient_error_and_removed">Terdapat kesalahan pada saat mengambil informasi penerima. Penerima telah dihapus: %s</string>
     <string name="send_anyway">Tetap kirim</string>
     <string name="expiration_error_title">Anda mengaktifkan pesan yang dapat kedaluwarsa, namun tidak semua penerima mendukung fitur ini.</string>
     <string name="expiration_error_add_msg_password">Silakan tambahkan kata sandi pesan bagi para penerima berikut:</string>
@@ -782,7 +782,7 @@
     <string name="custom_language_dialog_title">Pilih Bahasa Aplikasi</string>
     <string name="auto_detect">Deteksi otomatis</string>
     <string name="combined_contacts">Kontak gabungan</string>
-    <string name="turn_combined_contacts_on">Aktifkan fitur ini agar alamat email yang Anda ketik dapat dilengkapi secara otomatis dengan data kontak dari seluruh akun aktif yang Anda miliki.</string>
+    <string name="turn_combined_contacts_on">Aktifkan fitur ini agar alamat email yang Anda ketik dapat dilengkapi secara otomatis dengan data kontak dari seluruh akun yang terhubung masuk.</string>
     <string name="local_cache_management">Cache lokal</string>
     <string name="cache_cleared">Cache lokal telah dikosongkan</string>
     <string name="empty_data">Bersihkan data</string>
