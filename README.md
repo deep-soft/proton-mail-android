@@ -1,3 +1,11 @@
+## Important Note
+
+This repository has been archived. We’ve rebuilt the foundations of the Proton Mail Android app and moved it to a new repository.
+
+All future releases and source code updates will be available here: [ProtonMail/android-mail](https://github.com/ProtonMail/android-mail)
+
+Thank you for your support and understanding.
+
 # Proton Mail for Android
 
 Copyright (c) 2020 Proton AG
